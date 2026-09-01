@@ -1,40 +1,4 @@
 module.exports = [
-"[externals]/next/dist/compiled/@opentelemetry/api [external] (next/dist/compiled/@opentelemetry/api, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("next/dist/compiled/@opentelemetry/api", () => require("next/dist/compiled/@opentelemetry/api"));
-
-module.exports = mod;
-}),
-"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
-
-module.exports = mod;
-}),
-"[externals]/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-route-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("next/dist/compiled/next-server/app-route-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-route-turbo.runtime.dev.js"));
-
-module.exports = mod;
-}),
-"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
-
-module.exports = mod;
-}),
-"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
-
-module.exports = mod;
-}),
-"[externals]/next/dist/server/runtime-reacts.external.js [external] (next/dist/server/runtime-reacts.external.js, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("next/dist/server/runtime-reacts.external.js", () => require("next/dist/server/runtime-reacts.external.js"));
-
-module.exports = mod;
-}),
 "[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
 
 var mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
@@ -47,98 +11,167 @@ var mod = __turbopack_context__.x("node:path", () => require("node:path"));
 
 module.exports = mod;
 }),
-"[externals]/node:stream [external] (node:stream, cjs)", ((__turbopack_context__, module, exports) => {
-
-var mod = __turbopack_context__.x("node:stream", () => require("node:stream"));
-
-module.exports = mod;
-}),
 "[externals]/node:url [external] (node:url, cjs)", ((__turbopack_context__, module, exports) => {
 
 var mod = __turbopack_context__.x("node:url", () => require("node:url"));
 
 module.exports = mod;
 }),
-"[project]/app/api/health/db/route.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/app/elu/[uri]/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 __turbopack_context__.s([
-    "GET",
-    ()=>GET
+    "default",
+    ()=>EluPage
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$health$2e$controller$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/controllers/health.controller.ts [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$api$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/navigation.react-server.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$elu$2e$controller$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/controllers/elu.controller.ts [app-rsc] (ecmascript)");
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
-    __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$health$2e$controller$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__
+    __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$elu$2e$controller$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__
 ]);
-[__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$health$2e$controller$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+[__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$elu$2e$controller$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 ;
-async function GET() {
-    const { httpStatus, body } = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$health$2e$controller$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["getDatabaseHealth"])();
-    return Response.json(body, {
-        status: httpStatus
+;
+;
+async function EluPage({ params }) {
+    const { uri } = await params;
+    const elu = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$controllers$2f$elu$2e$controller$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getEluPageData"])(uri);
+    if (!elu) {
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
+    }
+    const dateNaissance = elu.dateNaissance.toLocaleDateString("fr-FR", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
     });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-1 items-center justify-center bg-zinc-50 px-6 py-16 dark:bg-black",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+            className: "flex w-full max-w-md flex-col items-center gap-6 rounded-2xl bg-white p-8 text-center shadow-sm dark:bg-zinc-900",
+            children: [
+                elu.photoProfil ? // eslint-disable-next-line @next/next/no-img-element
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                    src: elu.photoProfil,
+                    alt: `${elu.prenom} ${elu.nom}`,
+                    className: "h-32 w-32 rounded-full object-cover"
+                }, void 0, false, {
+                    fileName: "[project]/app/elu/[uri]/page.tsx",
+                    lineNumber: 25,
+                    columnNumber: 11
+                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex h-32 w-32 items-center justify-center rounded-full bg-zinc-200 text-3xl font-semibold text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400",
+                    children: [
+                        elu.prenom[0],
+                        elu.nom[0]
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/elu/[uri]/page.tsx",
+                    lineNumber: 31,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-2xl font-semibold text-black dark:text-zinc-50",
+                            children: [
+                                elu.prenom,
+                                " ",
+                                elu.nom
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/elu/[uri]/page.tsx",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mt-1 text-zinc-600 dark:text-zinc-400",
+                            children: [
+                                "Né(e) le ",
+                                dateNaissance
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/elu/[uri]/page.tsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/elu/[uri]/page.tsx",
+                    lineNumber: 37,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/elu/[uri]/page.tsx",
+            lineNumber: 22,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/app/elu/[uri]/page.tsx",
+        lineNumber: 21,
+        columnNumber: 5
+    }, this);
 }
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, false);}),
-"[project]/services/domain/use-cases/check-database-health.use-case.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/app/elu/[uri]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", (function(__turbopack_context__){
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/elu/[uri]/page.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/app/favicon.ico (static in ecmascript, tag client)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/favicon.2vob68tjqpejf.ico" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+"[project]/app/favicon.ico.mjs { IMAGE => \"[project]/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
-    "checkDatabaseHealth",
-    ()=>checkDatabaseHealth
+    "default",
+    ()=>__TURBOPACK__default__export__
 ]);
-async function checkDatabaseHealth(repository) {
-    try {
-        await repository.pingDatabase();
-        return {
-            ok: true
-        };
-    } catch (error) {
-        return {
-            ok: false,
-            reason: error.message
-        };
-    }
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__ = __turbopack_context__.i("[project]/app/favicon.ico (static in ecmascript, tag client)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
+    width: 256,
+    height: 256
+};
+}),
+"[project]/services/domain/use-cases/get-elu-by-uri.use-case.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getEluByUri",
+    ()=>getEluByUri
+]);
+async function getEluByUri(repository, uri) {
+    return repository.findByUri(uri);
 }
 }),
-"[project]/services/infra/controllers/health.controller.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/services/infra/controllers/elu.controller.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 __turbopack_context__.s([
-    "getDatabaseHealth",
-    ()=>getDatabaseHealth
+    "getEluPageData",
+    ()=>getEluPageData
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$domain$2f$use$2d$cases$2f$check$2d$database$2d$health$2e$use$2d$case$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/domain/use-cases/check-database-health.use-case.ts [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$health$2e$repository$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/repositories/health.repository.ts [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$domain$2f$use$2d$cases$2f$get$2d$elu$2d$by$2d$uri$2e$use$2d$case$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/domain/use-cases/get-elu-by-uri.use-case.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$elu$2e$repository$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/repositories/elu.repository.ts [app-rsc] (ecmascript)");
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
-    __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$health$2e$repository$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__
+    __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$elu$2e$repository$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__
 ]);
-[__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$health$2e$repository$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+[__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$elu$2e$repository$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 ;
 ;
-async function getDatabaseHealth() {
-    const result = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$domain$2f$use$2d$cases$2f$check$2d$database$2d$health$2e$use$2d$case$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["checkDatabaseHealth"])(__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$health$2e$repository$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["healthRepository"]);
-    if (result.ok) {
-        return {
-            httpStatus: 200,
-            body: {
-                status: "ok"
-            }
-        };
-    }
-    return {
-        httpStatus: 500,
-        body: {
-            status: "error",
-            message: result.reason
-        }
-    };
+async function getEluPageData(uri) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$domain$2f$use$2d$cases$2f$get$2d$elu$2d$by$2d$uri$2e$use$2d$case$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getEluByUri"])(__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$repositories$2f$elu$2e$repository$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["eluRepository"], uri);
 }
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, false);}),
-"[project]/services/infra/db/generated/prisma/client.ts [app-route] (ecmascript) <locals>", ((__turbopack_context__) => {
+"[project]/services/infra/db/generated/prisma/client.ts [app-rsc] (ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";
 
 /* !!! This is code generated by Prisma. Do not edit directly. !!! */ /* eslint-disable */ // biome-ignore-all lint: generated file
@@ -154,8 +187,8 @@ __turbopack_async_result__();
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$path__$5b$external$5d$__$28$node$3a$path$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/node:path [external] (node:path, cjs)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$node$3a$url__$5b$external$5d$__$28$node$3a$url$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/node:url [external] (node:url, cjs)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$internal$2f$class$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/db/generated/prisma/internal/class.ts [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$internal$2f$prismaNamespace$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/db/generated/prisma/internal/prismaNamespace.ts [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$internal$2f$class$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/db/generated/prisma/internal/class.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$internal$2f$prismaNamespace$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/db/generated/prisma/internal/prismaNamespace.ts [app-rsc] (ecmascript)");
 var __TURBOPACK__import$2e$meta__ = {
     get url () {
         return __turbopack_context__.F("services/infra/db/generated/prisma/client.ts");
@@ -178,10 +211,10 @@ globalThis['__dirname'] = __TURBOPACK__imported__module__$5b$externals$5d2f$node
 ;
 ;
 ;
-const PrismaClient = __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$internal$2f$class$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["getPrismaClientClass"]();
+const PrismaClient = __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$internal$2f$class$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getPrismaClientClass"]();
 ;
 }),
-"[project]/services/infra/db/generated/prisma/internal/class.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/services/infra/db/generated/prisma/internal/class.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
@@ -236,7 +269,7 @@ function getPrismaClientClass() {
     return __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client$2f$runtime$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2f$runtime$2f$client$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f40$prisma$2f$client$29$__["getPrismaClient"](config);
 }
 }),
-"[project]/services/infra/db/generated/prisma/internal/prismaNamespace.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/services/infra/db/generated/prisma/internal/prismaNamespace.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
@@ -358,7 +391,7 @@ const NullsOrder = {
 };
 const defineExtension = __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client$2f$runtime$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2f$runtime$2f$client$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f40$prisma$2f$client$29$__["Extensions"].defineExtension;
 }),
-"[project]/services/infra/db/prisma.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/services/infra/db/prisma.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
@@ -366,19 +399,19 @@ __turbopack_context__.s([
     "prisma",
     ()=>prisma
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@prisma/adapter-pg/dist/index.mjs [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$client$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/services/infra/db/generated/prisma/client.ts [app-route] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@prisma/adapter-pg/dist/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$client$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/services/infra/db/generated/prisma/client.ts [app-rsc] (ecmascript) <locals>");
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
-    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__
 ]);
-[__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+[__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 ;
 ;
 const globalForPrisma = globalThis;
-const adapter = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["PrismaPg"]({
+const adapter = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$prisma$2f$adapter$2d$pg$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["PrismaPg"]({
     connectionString: process.env.DATABASE_URL
 });
-const prisma = globalForPrisma.prisma ?? new __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$client$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PrismaClient"]({
+const prisma = globalForPrisma.prisma ?? new __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$generated$2f$prisma$2f$client$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PrismaClient"]({
     adapter
 });
 if ("TURBOPACK compile-time truthy", 1) {
@@ -386,27 +419,56 @@ if ("TURBOPACK compile-time truthy", 1) {
 }
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, false);}),
-"[project]/services/infra/repositories/health.repository.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"[project]/services/infra/repositories/elu.repository.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 __turbopack_context__.s([
-    "healthRepository",
-    ()=>healthRepository
+    "eluRepository",
+    ()=>eluRepository
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/db/prisma.ts [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/services/infra/db/prisma.ts [app-rsc] (ecmascript)");
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
-    __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__
+    __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__
 ]);
-[__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+[__TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 ;
-const healthRepository = {
-    async pingDatabase () {
-        await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].$queryRaw`SELECT 1`;
+function toDomain(record) {
+    return {
+        id: record.id,
+        nom: record.nom,
+        prenom: record.prenom,
+        dateNaissance: record.dateNaissance,
+        photoProfil: record.photoProfil,
+        uri: record.uri
+    };
+}
+const eluRepository = {
+    async findByUri (uri) {
+        const record = await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["prisma"].elu.findUnique({
+            where: {
+                uri
+            }
+        });
+        return record ? toDomain(record) : null;
+    },
+    async existsByUri (uri) {
+        const count = await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["prisma"].elu.count({
+            where: {
+                uri
+            }
+        });
+        return count > 0;
+    },
+    async create (data) {
+        const record = await __TURBOPACK__imported__module__$5b$project$5d2f$services$2f$infra$2f$db$2f$prisma$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["prisma"].elu.create({
+            data
+        });
+        return toDomain(record);
     }
 };
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, false);}),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__1l5db7r._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__07vz6my._.js.map

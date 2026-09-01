@@ -11,3 +11,14 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model Elu {
+  id            String   @id @default(cuid())
+  nom           String
+  prenom        String
+  dateNaissance DateTime
+  photoProfil   String?
+  uri           String   @unique
+
+  @@map("elus")
+}

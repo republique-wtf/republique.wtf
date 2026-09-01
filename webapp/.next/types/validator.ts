@@ -47,28 +47,28 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 }
 
 
-// Validate ../../../app/elu/[uri]/page.tsx
+// Validate ../../app/elu/[uri]/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/elu/[uri]">> = Specific
-  const handler = {} as typeof import("../../../app/elu/[uri]/page.js")
+  const handler = {} as typeof import("../../app/elu/[uri]/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/page.tsx
+// Validate ../../app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
-  const handler = {} as typeof import("../../../app/page.js")
+  const handler = {} as typeof import("../../app/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
 }
 
-// Validate ../../../app/api/health/db/route.ts
+// Validate ../../app/api/health/db/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/health/db">> = Specific
-  const handler = {} as typeof import("../../../app/api/health/db/route.js")
+  const handler = {} as typeof import("../../app/api/health/db/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -78,10 +78,10 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 
 
 
-// Validate ../../../app/layout.tsx
+// Validate ../../app/layout.tsx
 {
   type __IsExpected<Specific extends LayoutConfig<"/">> = Specific
-  const handler = {} as typeof import("../../../app/layout.js")
+  const handler = {} as typeof import("../../app/layout.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
