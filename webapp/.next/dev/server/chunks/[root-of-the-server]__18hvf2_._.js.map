@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///home/swann/Documents/projet/republique-wtf/republique.wtf/webapp/app/api/health/db/route.ts"],"sourcesContent":["import { prisma } from \"@/lib/prisma\";\n\nexport async function GET() {\n  try {\n    await prisma.$queryRaw`SELECT 1`;\n    return Response.json({ status: \"ok\" });\n  } catch (error) {\n    return Response.json(\n      { status: \"error\", message: (error as Error).message },\n      { status: 500 },\n    );\n  }\n}\n"],"names":["GET","prisma","$queryRaw","Response","json","status","error","message"],"mappings":";;;;;;;;;;AAEO,eAAeA;IACpB,IAAI;QACF,MAAMC,OAAOC,SAAS,CAAC,QAAQ,CAAC;QAChC,OAAOC,SAASC,IAAI,CAAC;YAAEC,QAAQ;QAAK;IACtC,EAAE,OAAOC,OAAO;QACd,OAAOH,SAASC,IAAI,CAClB;YAAEC,QAAQ;YAASE,SAAS,AAACD,MAAgBC,OAAO;QAAC,GACrD;YAAEF,QAAQ;QAAI;IAElB;AACF"}}]
-}

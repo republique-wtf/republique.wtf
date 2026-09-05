@@ -1,4 +1,0 @@
-{
-  "/api/health/db/route": "app/api/health/db/route.js",
-  "/elu/[uri]/page": "app/elu/[uri]/page.js"
-}

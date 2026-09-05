@@ -1,6 +1,7 @@
-import { getEluByUri } from "@/services/domain/use-cases/get-elu-by-uri.use-case";
+import { getEluProfileByUri } from "@/services/domain/use-cases/get-elu-profile.use-case";
 import { eluRepository } from "@/services/infra/repositories/elu.repository";
+import { jobRepository } from "@/services/infra/repositories/job.repository";
 
 export async function getEluPageData(uri: string) {
-  return getEluByUri(eluRepository, uri);
+  return getEluProfileByUri(eluRepository, jobRepository, uri);
 }

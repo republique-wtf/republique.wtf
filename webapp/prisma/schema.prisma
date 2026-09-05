@@ -19,6 +19,21 @@ model Elu {
   dateNaissance DateTime
   photoProfil   String?
   uri           String   @unique
+  jobs          Job[]
 
   @@map("elus")
+}
+
+model Job {
+  id                  String    @id @default(cuid())
+  eluId               String
+  elu                 Elu       @relation(fields: [eluId], references: [id])
+  dateDebut           DateTime
+  dateFin             DateTime?
+  estFonctionPublique Boolean
+  estPosteElu         Boolean
+  nom                 String
+  categorie           String
+
+  @@map("jobs")
 }
